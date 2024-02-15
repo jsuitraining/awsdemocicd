@@ -63,6 +63,7 @@ const JobAdvtForm = () => {
             type="file"
             id="resume"
             name="resume"
+            value={resume}
             accept=".pdf"
             onChange={handleFileChange}
             required
