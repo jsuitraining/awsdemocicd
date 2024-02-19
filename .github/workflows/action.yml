@@ -1,6 +1,4 @@
 name: CICD for React Project
-runs:
-  entrypoint: "/entrypoint.sh"
 on:
   push:
     branches: [ "main" ]
